@@ -9,7 +9,7 @@ export default function Footer() {
   const getVisits = async () => {
     let config = {
       method: "GET",
-      url: "http://localhost:5999/",
+      url: "https://portfolio-backend-yash.herokuapp.com/",
     };
 
     await axios(config)
