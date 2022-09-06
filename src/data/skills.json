@@ -1,24 +1,7 @@
 [
     {
-        "name": "C++",
-        "url": "https://img.icons8.com/color/192/000000/c-plus-plus-logo.png"
-    },
-    {
-        "name": "Java",
-        "url": "https://img.icons8.com/color/192/000000/java-coffee-cup-logo.png"
-    },
-    
-    {
-        "name": "HTML",
-        "url": "https://img.icons8.com/color/192/000000/html-5.png"
-    },
-    {
-        "name": "CSS",
-        "url": "https://img.icons8.com/color/192/000000/css3.png"
-    },
-    {
-        "name": "JavaScript",
-        "url": "https://img.icons8.com/color/192/000000/javascript.png"
+        "name": "React JS",
+        "url": "https://img.icons8.com/color/192/000000/react-native.png"
     },
     {
         "name": "MySQL",
@@ -28,26 +11,9 @@
         "name": "MongoDB",
         "url": "https://img.icons8.com/color/192/000000/mongodb.png"
     },
-    
-    
-    
-    
     {
-        "name": "Node JS",
-        "url": "https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg"
-    },
-    {
-        "name": "Express JS",
-        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-    },
-    
-    {
-        "name": "React JS",
-        "url": "https://img.icons8.com/color/192/000000/react-native.png"
-    },
-    {
-        "name": "Next JS",
-        "url": "https://www.svgrepo.com/show/354112/nextjs.svg"
+        "name": "CSS",
+        "url": "https://img.icons8.com/color/192/000000/css3.png"
     },
     {
         "name": "Tailwind",
@@ -61,6 +27,46 @@
         "name": "Material UI",
         "url": "https://img.icons8.com/color/344/material-ui.png"
     },
+    {
+        "name": "HTML",
+        "url": "https://img.icons8.com/color/192/000000/html-5.png"
+    },
+    {
+        "name": "Node JS",
+        "url": "https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg"
+    },
+    {
+        "name": "Express JS",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+    },
+     
+    
+    {
+        "name": "JavaScript",
+        "url": "https://img.icons8.com/color/192/000000/javascript.png"
+    },
+    
+    
+    {
+        "name": "Next JS",
+        "url": "https://www.svgrepo.com/show/354112/nextjs.svg"
+    },
+    
+    {
+        "name": "C++",
+        "url": "https://img.icons8.com/color/192/000000/c-plus-plus-logo.png"
+    },
+    {
+        "name": "Java",
+        "url": "https://img.icons8.com/color/192/000000/java-coffee-cup-logo.png"
+    },
+    
+   
+    
+    
+    
+    
+    
     
      {
         "name": "Git",
