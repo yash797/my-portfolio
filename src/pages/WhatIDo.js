@@ -25,7 +25,7 @@ export default function WhatIDo() {
               </h3>
 
               <h3 className="mt-12 font-secondary text-lg font-medium text-blue-500 text-center">
-                Languages I Speak:
+                Languages I Know:
               </h3>
               <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
                 C++,Java, JavaScript, HTML, CSS
@@ -33,9 +33,7 @@ export default function WhatIDo() {
               <h3 className="mt-12 font-secondary text-lg font-medium text-blue-500 text-center">
                 Dev Tools:
               </h3>
-              <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
-                Html, CSS
-              </p>
+
               <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
                 React
               </p>
@@ -48,8 +46,12 @@ export default function WhatIDo() {
               <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
                 Ecclipse
               </p>
+
               <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
                 MySQL
+              </p>
+              <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
+                Spring
               </p>
               <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
                 Git

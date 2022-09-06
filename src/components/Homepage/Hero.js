@@ -2,7 +2,7 @@ import Fade from "react-reveal/Fade";
 import { Link } from "react-router-dom";
 import React from "react";
 import Typewriter from "typewriter-effect";
-import photo from "../../images/me.jpg";
+import photo from "../../images/me.png";
 
 export default function Hero() {
   return (
@@ -57,7 +57,7 @@ export default function Hero() {
         <div className="px-5 flex flex-col items-center">
           <img
             src={photo}
-            className="overflow-hidden rounded-3xl shadow-2xl mt-8 lg:mt-0"
+            className="overflow-hidden rounded-full shadow-2xl mt-8 lg:mt-0 "
             alt="Yash"
           />
         </div>

@@ -7,7 +7,7 @@ export default function Skills() {
   return (
     <section className="mt-16 mx-3 justify-center">
       <Fade up>
-        <h1 className="heading-tagline">WHAT I KNOW</h1>
+        {/* <h1 className="heading-tagline">WHAT I KNOW</h1> */}
         <div>
           <h1 className="heading-main">Skills</h1>
         </div>

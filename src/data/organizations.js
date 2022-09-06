@@ -10,15 +10,15 @@ export const organizationsData = [
     logo: pcsb,
   },
   {
-    date: "SEPTEMBER 2021 - PRESENT",
+    date: "SEPTEMBER 2021 - AUGUST 2022",
     position: "Design Head",
     name: "PICT NEWSLETTER and BROCHURE (PNAB), PICT",
-    logo: debsoc,
+    logo: pnab,
   },
   {
     date: "MARCH 2021 - AUGUST 2022",
     position: "Member",
     name: "PICT Official DEBATE Society (DEBSOC)",
-    logo: pnab,
+    logo: debsoc,
   },
 ];

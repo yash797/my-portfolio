@@ -167,7 +167,7 @@ export default function Contact() {
 
             <div className="mx-auto flex-grow transition duration-500 ease-in-out transform hover:scale-105">
               <a
-                href="https://goo.gl/maps/Yg3JFteSWH2MK8q38"
+                href="https://goo.gl/maps/EjQMJLoY4HJrxZMu9"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -188,7 +188,7 @@ export default function Contact() {
             </div>
           </div>
           <div className="mt-8">
-            <form onSubmit={handleSubmit} autoComplete="off">
+            <form onSubmit={handleSubmit} autoComplete="on">
               <div className="lg:flex lg:space-x-8">
                 <div className="w-full lg:w-1/2 flex flex-col">
                   <label className="text-gray-400 font-secondary font-medium mb-2 text-lg">

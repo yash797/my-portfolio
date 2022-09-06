@@ -14,35 +14,6 @@
             "React Query",
             "Material UI"
         ]
-    },
-    {
-        "date": "DECEMBER 2021 - MARCH 2022",
-        "title": "Pingolearn",
-        "subtitle": "Mobile App Development Intern",
-        "website": "https://pingolearn.com/",
-        "details": [
-            "Developed and maintained Pingolearn, a language learning app in Flutter.",
-            "Designed assessments for hiring candidates for full-time roles."
-        ],
-        "techStack": [
-            "Flutter",
-            "Firebase",
-            "Figma"
-        ]
-    },
-    {
-        "date": "AUGUST 2021 - NOVEMBER 2021",
-        "title": "Manastik",
-        "subtitle": "Software Engineer Intern",
-        "website": "https://manastik.com/",
-        "details": [
-            "Digitalized the Hindi Mental State Examination (HMSE) by developing the Dementia Active Diagnosis and Tracking (DADT) app in Flutter."
-        ],
-        "techStack": [
-            "Flutter",
-            "NodeJS",
-            "DynamoDB",
-            "AWS"
-        ]
     }
+    
 ]

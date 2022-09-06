@@ -49,12 +49,11 @@ export const projectsData = [
 
   {
     name: "RAYS",
-    description:
-      "An E-commerce website integrated with Alan AI. ",
+    description: "An E-commerce website integrated with Alan AI. ",
     image: defaultImage,
-    code: "",
+    // code: "",
     deployment: "",
-    techStack: ["ReactJS","Alan AI", "Django"],
+    techStack: ["ReactJS", "Alan AI", "Django"],
   },
 
   {
@@ -74,12 +73,12 @@ export const projectsData = [
     ],
   },
 
-  // {
-  //   name: "Note It Down",
-  //   description:
-  //     "A Note-taking app along with a to-do list (Tasks) functionality, Note It Down is an app developed for Android devices using Firebase in the backend.",
-  //   image: noteitdown,
-  //   code: "https://github.com/RohinBhat/NoteItDown",
-  //   techStack: ["Android", "Firebase"],
-  // },
+  {
+    name: "Mess Menu Finder",
+    description: "Ongoing",
+    image:
+      "https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2019/08/07/Pictures/_ec38addc-b906-11e9-a203-e6c4ad816de5.jpg",
+    // code: "",
+    techStack: ["React JS", "Mongo BD", "Node JS"],
+  },
 ];

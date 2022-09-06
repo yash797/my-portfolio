@@ -37,7 +37,7 @@ export default function Resume() {
           </a>
         </div>
         <iframe
-          title="Rohin Bhat | Resume"
+          title="Yash Pande| Resume"
           className="w-full h-screen mx-auto"
           src={resumeUrl}
         ></iframe>
