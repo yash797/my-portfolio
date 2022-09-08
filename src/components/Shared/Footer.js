@@ -116,9 +116,9 @@ export default function Footer() {
           </span>{" "}
           by Yash Pande.
         </p>
-        <p className="font-secondary font-semibold text-gray-500 text-center md:text-left text-md">
+        {/* <p className="font-secondary font-semibold text-gray-500 text-center md:text-left text-md">
           Website Visits: {visits}
-        </p>
+        </p> */}
       </div>
     </footer>
   );
