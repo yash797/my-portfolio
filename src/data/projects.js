@@ -1,4 +1,3 @@
-import chatapp from "../images/chat-app.png";
               
 import defaultImage from "../images/default-project.png";
 import xenia from "../images/xenia.png";
@@ -6,7 +5,6 @@ import xeniaverse from "../images/xeniaverse.png";
 import gamex from "../images/game-x.png";
 import digiwork from "../images/digiwork.png";
 
-import radiance from "../images/radiance21.jpg";
 
 export const projectsData = [
   {
@@ -15,7 +13,7 @@ export const projectsData = [
       "We made this site to facilitate a plethora of essential functions of this nation-wide tech-fest. From registrations, displaying content to payments everything was made from scratch and integrated together.",
     image: xenia,
     code: "",
-    techStack: ["React JS", "Mongo BD", "Node JS"],
+    techStack: ["React JS", "Mongo DB", "Node JS"],
     deployment: "https://www.pcsbxenia.com/",
 
     // sysArch: "https://www.pcsbxenia.com/",
@@ -44,7 +42,7 @@ export const projectsData = [
     image: gamex,
 
     deployment: "https://nikitak27.github.io/Web-weaver_GameX/index.html",
-    techStack: ["Html", "CSS", "Javascript"],
+    techStack: ["HTML", "CSS", "Javascript"],
   },
 
   {
@@ -79,6 +77,6 @@ export const projectsData = [
     image:
       "https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2019/08/07/Pictures/_ec38addc-b906-11e9-a203-e6c4ad816de5.jpg",
     // code: "",
-    techStack: ["React JS", "Mongo BD", "Node JS"],
+    techStack: ["React JS", "Mongo DB", "Node JS"],
   },
 ];

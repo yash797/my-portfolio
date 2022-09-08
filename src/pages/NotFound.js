@@ -22,7 +22,7 @@ export default function NotFound() {
             rel="noreferrer"
             className="text-center font-normal font-secondary text-sm text-gray-400"
           >
-            <p>Illustration by Storyset</p>
+            {/* <p>Illustration by Storyset</p> */}
           </a>
         </div>
         <div>

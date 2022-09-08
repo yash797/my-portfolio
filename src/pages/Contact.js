@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-
 import Fade from "react-reveal/Fade";
 import axios from "axios";
 import { toast } from "react-toastify";
 import { useHistory } from "react-router-dom";
+import Loader from "../components/loader";
 
 export default function Contact() {
   const emailRegex = RegExp(
@@ -26,12 +26,16 @@ export default function Contact() {
     messageError: "",
   });
 
+  const [loading, setLoading] = useState(false)
+
   const sendMessage = async () => {
     await axios
       .post("https://xenia-mailer.herokuapp.com/api/contact-us", userData)
       .then((res) => {
-        history.push("/");
-        toast.success("Message sent successfully");
+        if(res.data.success) {
+          history.push("/");
+          toast.success("Message sent successfully");
+        }
       })
       .catch((err) => {
         toast.error("Something went wrong");
@@ -105,20 +109,18 @@ export default function Contact() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true)
     const isValid = validate();
     if (isValid) {
-      sendMessage({
-        url: "https://xenia-mailer.herokuapp.com/api/contact-us",
-        method: "POST",
-        data: userData,
-      });
+      await sendMessage();
     }
+    setLoading(false)
   };
 
-  return (
-    <div className="overflow-hidden bg-gray-800 rounded-lg shadow-md items-center w-auto xl:w-5/6 mx-auto py-6 my-8">
+  return ( loading ? <Loader></Loader>:
+    <div className=" overflow-hidden bg-gray-800 rounded-lg shadow-md items-center w-auto xl:w-5/6 mx-auto py-6 my-8">
       <Fade up cascade>
         <div className="w-5/6 mx-auto">
           <div>
@@ -188,7 +190,7 @@ export default function Contact() {
             </div>
           </div>
           <div className="mt-8">
-            <form onSubmit={handleSubmit} autoComplete="on">
+            <form autoComplete="on" method="post">
               <div className="lg:flex lg:space-x-8">
                 <div className="w-full lg:w-1/2 flex flex-col">
                   <label className="text-gray-400 font-secondary font-medium mb-2 text-lg">
@@ -279,6 +281,7 @@ export default function Contact() {
               <button
                 className="w-full my-2 bg-blue-500 hover:bg-blue-700 text-white font-medium text-center transition duration-500 ease-in-out py-3 px-4 rounded font-primary text-lg mt-8"
                 type="submit"
+                onClick={(e) => handleSubmit(e)}
               >
                 Send
               </button>

@@ -12,7 +12,12 @@ export default function Footer() {
       url: "https://portfolio-backend-yash.herokuapp.com/",
     };
 
-    await axios(config)
+    await axios
+      .get("https://portfolio-backend-yash.herokuapp.com/", {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
       .then((res) => {
         console.log(res);
         setVisits(res.data.views);
