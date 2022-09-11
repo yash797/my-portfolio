@@ -9,11 +9,11 @@ export default function Footer() {
   const getVisits = async () => {
     let config = {
       method: "GET",
-      url: "https://portfolio-backend-yash.herokuapp.com/",
+      url: "https://website-views.herokuapp.com/",
     };
 
     await axios
-      .get("https://portfolio-backend-yash.herokuapp.com/", {
+      .get("https://website-views.herokuapp.com/", {
         headers: {
           "Content-Type": "application/json",
         },
@@ -23,7 +23,7 @@ export default function Footer() {
         setVisits(res.data.views);
       })
       .catch((err) => {
-        console.log(err);
+        console.log("err", err);
       });
   };
 
@@ -116,9 +116,9 @@ export default function Footer() {
           </span>{" "}
           by Yash Pande.
         </p>
-        {/* <p className="font-secondary font-semibold text-gray-500 text-center md:text-left text-md">
+        <p className="font-secondary font-semibold text-gray-500 text-center md:text-left text-md">
           Website Visits: {visits}
-        </p> */}
+        </p>
       </div>
     </footer>
   );
