@@ -6,7 +6,7 @@ const Squid = () => {
   const [loading, setLoading] = useState(false)
  useEffect(()=>{setTimeout(() => {
     setLoading(true)
- }, 4000);})
+ }, 6000);})
   return (
     <div>
     {loading===false ?
