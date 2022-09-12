@@ -2,6 +2,8 @@
 import defaultImage from "../images/default-project.png";
 import xenia from "../images/xenia.png";
 import xeniaverse from "../images/xeniaverse.png";
+import squid from "../images/squid_game.png";
+
 import gamex from "../images/game-x.png";
 import digiwork from "../images/digiwork.png";
 
@@ -35,6 +37,16 @@ export const projectsData = [
     ],
     // sysArch: "https://sysarch.burhanuddinmerchant.me/fnf.html",
   },
+  {
+    name: "Squid Game",
+    description:
+      "Tried to design an online game that contains captivating graphics from the series that will appeal to users. Squid game's user-friendly interface aimed to give the user a first-hand experience of squid game.",
+    image: squid,
+
+    deployment: "/squid-game",
+    techStack: ["Photoshop"],
+  },
+
   {
     name: "Game-X",
     description:

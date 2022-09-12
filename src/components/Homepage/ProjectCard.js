@@ -25,7 +25,7 @@ export const ProjectCard = (props) => {
 
   return (
     <div className="pt-4 w-full max-w-lg lg:w-1/2 xl:w-1/3 mt-4">
-      <a href={deployment} target="_blank">
+      <a href={deployment} target={name==="Squid Game" ? null: "_blank"}>
         <div className="flex flex-col h-full mx-3 bg-gray-800 shadow-2xl rounded-lg transition ease-in-out transform hover:scale-105 hover:-translate-y-1 duration-300">
           <img
             src={image}
@@ -67,7 +67,7 @@ export const ProjectCard = (props) => {
               </a>
             ) : null}
             {website ? (
-              <a href={website} target="_blank" rel="noreferrer">
+              <a href={website} target={name==="Squid Game" ? null: "_blank"} rel="noreferrer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 30 30"
@@ -78,7 +78,7 @@ export const ProjectCard = (props) => {
               </a>
             ) : null}
             {deployment ? (
-              <a href={deployment} target="_blank" rel="noreferrer">
+              <a href={deployment} target={name==="Squid Game" ? null: "_blank"} rel="noreferrer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 30 30"
