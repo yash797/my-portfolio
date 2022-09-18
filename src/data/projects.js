@@ -62,7 +62,7 @@ export const projectsData = [
     description: "An E-commerce website integrated with Alan AI. ",
     image: defaultImage,
     // code: "",
-    deployment: "",
+    // deployment: "",
     techStack: ["ReactJS", "Alan AI", "Django"],
   },
 
