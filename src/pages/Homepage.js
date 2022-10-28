@@ -9,6 +9,7 @@ export default function Homepage() {
   return (
     <div className="container">
       <Hero />
+      
       <Skills />
       <Projects />
       <Recommendations />

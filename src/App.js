@@ -34,6 +34,12 @@ function App() {
       <div className="w-11/12 md:w-3/4 mx-auto">
         <ScrollToTop>
           <NavBar />
+          <div class="scroll-downs">
+            <div id="design"></div>
+            <div class="mousey">
+              <div class="scrolley"></div>
+            </div>
+          </div>
           <Switch>
             <Route exact path="/">
               <Homepage />
