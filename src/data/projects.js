@@ -1,6 +1,8 @@
               
 import defaultImage from "../images/default-project.png";
 import xenia from "../images/xenia.png";
+import crypto from "../images/crypto.png";
+
 import xeniaverse from "../images/xeniaverse.png";
 import squid from "../images/squid_game.png";
 
@@ -21,6 +23,33 @@ export const projectsData = [
     // sysArch: "https://www.pcsbxenia.com/",
   },
   {
+    name: "Crypto Stalker",
+    description:
+      "Primary goal of this web application is to track different Crpytocurrencies’ information. Real time value of cryptocurrencies,their exchange rates in USD and INR, its change in price in last 24 hrs/ 30 days/ 3 months/ 1 year and current market cap is shown.",
+    image: crypto,
+    code: "",
+    deployment: "https://cryptostalker.netlify.app/",
+    techStack: [
+      "React JS",
+      "Material UI",
+      "Chart JS",
+      // "Docker",
+      // "Cloudinary",
+      // "Terraform",
+    ],
+    // sysArch: "https://sysarch.burhanuddinmerchant.me/fnf.html",
+  },
+  {
+    name: "Squid Game",
+    description:
+      "Tried to design an online game that contains captivating graphics from the series that will appeal to users. Squid game's user-friendly interface aimed to give the user a first-hand experience of squid game.",
+    image: squid,
+
+    deployment: "/squid-game",
+    techStack: ["Photoshop"],
+  },
+
+  {
     name: "Xeniaverse",
     description:
       "The site was made to deploy information of different events and collect registrations for the same.",
@@ -36,15 +65,6 @@ export const projectsData = [
       // "Terraform",
     ],
     // sysArch: "https://sysarch.burhanuddinmerchant.me/fnf.html",
-  },
-  {
-    name: "Squid Game",
-    description:
-      "Tried to design an online game that contains captivating graphics from the series that will appeal to users. Squid game's user-friendly interface aimed to give the user a first-hand experience of squid game.",
-    image: squid,
-
-    deployment: "/squid-game",
-    techStack: ["Photoshop"],
   },
 
   {
