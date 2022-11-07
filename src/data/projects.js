@@ -1,5 +1,5 @@
               
-import defaultImage from "../images/default-project.png";
+import cart from "../images/cart.png";
 import xenia from "../images/xenia.png";
 import crypto from "../images/crypto.png";
 
@@ -78,12 +78,12 @@ export const projectsData = [
   },
 
   {
-    name: "RAYS",
+    name: "Voice-Kart",
     description: "An E-commerce website integrated with Alan AI. ",
-    image: defaultImage,
+    image: cart,
     // code: "",
-    // deployment: "",
-    techStack: ["ReactJS", "Alan AI", "Django"],
+    deployment: "https://voicekart.netlify.app/",
+    techStack: ["ReactJS", "Alan AI", "Tailwind CSS"],
   },
 
   {
