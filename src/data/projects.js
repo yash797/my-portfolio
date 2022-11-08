@@ -5,6 +5,7 @@ import crypto from "../images/crypto.png";
 
 import xeniaverse from "../images/xeniaverse.png";
 import squid from "../images/squid_game.png";
+import estate from "../images/estate.png";
 
 import gamex from "../images/game-x.png";
 import digiwork from "../images/digiwork.png";
@@ -66,6 +67,14 @@ export const projectsData = [
     ],
     // sysArch: "https://sysarch.burhanuddinmerchant.me/fnf.html",
   },
+  {
+    name: "Voice-Kart",
+    description: "An E-commerce website integrated with Alan AI. ",
+    image: cart,
+    // code: "",
+    deployment: "https://voicekart.netlify.app/",
+    techStack: ["ReactJS", "Alan AI", "Tailwind CSS"],
+  },
 
   {
     name: "Game-X",
@@ -78,12 +87,13 @@ export const projectsData = [
   },
 
   {
-    name: "Voice-Kart",
-    description: "An E-commerce website integrated with Alan AI. ",
-    image: cart,
+    name: "Estate",
+    description: "Made an extensive wireframe using figma for a real estate buisness' end to end website",
+    image: estate,
     // code: "",
-    deployment: "https://voicekart.netlify.app/",
-    techStack: ["ReactJS", "Alan AI", "Tailwind CSS"],
+    deployment:
+      "https://www.figma.com/proto/F54Q99NowY9Tdy0YBeZBKU/Estate_Project?node-id=150%3A120&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=150%3A120",
+    techStack: ["Figma"],
   },
 
   {
