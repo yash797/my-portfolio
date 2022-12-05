@@ -12,25 +12,25 @@ export default function Footer() {
       url: "https://website-views.herokuapp.com/",
     };
 
-    await axios
-      .get("https://website-views.herokuapp.com/", {
-        headers: {
-          "Content-Type": "application/json",
-        },
-      })
-      .then((res) => {
-        console.log(res);
-        setVisits(res.data.views);
-      })
-      .catch((err) => {
-        console.log("err", err);
-      });
+    // await axios
+    //   .get("https://website-views.herokuapp.com/", {
+    //     headers: {
+    //       "Content-Type": "application/json",
+    //     },
+    //   })
+    //   .then((res) => {
+    //     console.log(res);
+    //     setVisits(res.data.views);
+    //   })
+    //   .catch((err) => {
+    //     console.log("err", err);
+    //   });
   };
 
-  useEffect(() => {
-    getVisits();
-    // eslint-disable-next-line
-  }, []);
+  // useEffect(() => {
+  //   getVisits();
+  //   // eslint-disable-next-line
+  // }, []);
 
   return (
     <footer className="relative bottom-0 left-0 w-full px-5 flex flex-col border-dashed border-t border-gray-700 mt-8 py-4 justify-center items-center md:justify-between md:flex-row">
@@ -116,9 +116,9 @@ export default function Footer() {
           </span>{" "}
           by Yash Pande.
         </p>
-        <p className="font-secondary font-semibold text-gray-500 text-center md:text-left text-md">
+        {/* <p className="font-secondary font-semibold text-gray-500 text-center md:text-left text-md">
           Website Visits: {visits}
-        </p>
+        </p> */}
       </div>
     </footer>
   );

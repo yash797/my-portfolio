@@ -8,6 +8,7 @@ export default function Projects() {
   return (
     <section className="mt-16 mx-3">
       <Fade up>
+        
         <h1 className="heading-tagline">TAKE A LOOK</h1>
         <div>
           <a
