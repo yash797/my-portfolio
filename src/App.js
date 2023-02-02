@@ -12,6 +12,8 @@ import Messages from "./pages/Messages";
 import NavBar from "./components/Shared/NavBar";
 import NotFound from "./pages/NotFound";
 import Resume from "./pages/Resume";
+import Dashboard from "./pages/Dashboard";
+
 import ScrollToTop from "./components/Shared/ScrollToTop";
 import { ToastContainer } from "react-toastify";
 import WhatIDo from "./pages/WhatIDo";
@@ -46,6 +48,9 @@ function App() {
             </Route>
             <Route exact path="/resume">
               <Resume />
+            </Route>
+            <Route exact path="/dashboard">
+              <Dashboard />
             </Route>
             <Route exact path="/squid-game">
               <Squid />

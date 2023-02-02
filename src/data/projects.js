@@ -1,7 +1,7 @@
-              
 import cart from "../images/cart.png";
 import xenia from "../images/xenia.png";
 import crypto from "../images/crypto.png";
+import portal from "../images/portal.png";
 
 import xeniaverse from "../images/xeniaverse.png";
 import squid from "../images/squid_game.png";
@@ -9,7 +9,6 @@ import estate from "../images/estate.png";
 
 import gamex from "../images/game-x.png";
 import digiwork from "../images/digiwork.png";
-
 
 export const projectsData = [
   {
@@ -51,6 +50,24 @@ export const projectsData = [
   },
 
   {
+    name: "Registration Portal",
+    description:
+      "The registration portal is a web-based platform designed by a team to facilitate the registration process for students of PICT College who want to join the Technical Club i.e PCSB. The portal streamlines the registration process and makes it easy for students to sign up and become a member of the club.",
+    image: portal,
+    code: "",
+    deployment: "https://www.pcsb-registrations.tk/",
+    techStack: [
+      "React JS",
+      "Tailwind CSS",
+      "Go Lang",
+      // "Docker",
+      // "Cloudinary",
+      // "Terraform",
+    ],
+    // sysArch: "https://sysarch.burhanuddinmerchant.me/fnf.html",
+  },
+
+  {
     name: "Xeniaverse",
     description:
       "The site was made to deploy information of different events and collect registrations for the same.",
@@ -69,7 +86,8 @@ export const projectsData = [
   },
   {
     name: "Voice-Kart",
-    description: "An E-commerce website integrated with Alan AI. ",
+    description:
+      "Voice Kart is an E-commerce website that utilizes Alan AI to offer voice-based shopping. Customers can browse and purchase products through voice commands, making online shopping convenient and hands-free. It combines voice technology with a traditional interface for a unique shopping experience. ",
     image: cart,
     // code: "",
     deployment: "https://voicekart.netlify.app/",
@@ -88,7 +106,8 @@ export const projectsData = [
 
   {
     name: "Estate",
-    description: "Made an extensive wireframe using figma for a real estate buisness' end to end website",
+    description:
+      "Made an extensive wireframe using figma for a real estate buisness' end to end website",
     image: estate,
     // code: "",
     deployment:
