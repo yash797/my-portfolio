@@ -16,8 +16,8 @@ export const organizationsData = [
     logo: pnab,
   },
   {
-    date: "MARCH 2021 - AUGUST 2022",
-    position: "Member",
+    date: "December 2021 - AUGUST 2022",
+    position: "Design Head",
     name: "PICT Official DEBATE Society (DEBSOC)",
     logo: debsoc,
   },

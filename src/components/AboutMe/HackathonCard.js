@@ -29,10 +29,11 @@ export default function HackathonCard(props) {
           <p className="text-left text-sm text-secondary text-gray-300 mt-2">
             <span className="font-bold">Team Name:</span> {teamName}
           </p>
-          <p className="text-left text-sm text-secondary text-gray-300">
-            <span className="font-bold">Description:</span> {solution}
+          <p className="text-left text-sm text-secondary text-gray-300 mt-2">
+            <span className="font-bold">Description:</span> {description}
           </p>
-          <p className="text-justify text-sm text-secondary text-gray-300">
+          <p className="text-justify text-sm text-secondary text-gray-300 mt-2">
+            <span className="font-bold">Solution:</span> {solution}
             {description}
           </p>
         </div>

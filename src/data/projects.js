@@ -2,6 +2,7 @@ import cart from "../images/cart.png";
 import xenia from "../images/xenia.png";
 import crypto from "../images/crypto.png";
 import portal from "../images/portal.png";
+import mystery from "../images/mystery-match.jpeg";
 
 import xeniaverse from "../images/xeniaverse.png";
 import squid from "../images/squid_game.png";
@@ -47,6 +48,24 @@ export const projectsData = [
 
     deployment: "/squid-game",
     techStack: ["Photoshop"],
+  },
+
+  {
+    name: "Mystery Match",
+    description:
+      "The Mystery Match is a web-platform connecting Sherlock Holmes with potential assistant detectives, allowing the latter to submit their resumes and showcase their skills, and the former to easily browse and select the best fit for their cases. The platform also allows for direct communication and updates on the status of applications.",
+    image: mystery,
+    code: "",
+    deployment: "https://www.pcsb-registrations.tk/",
+    techStack: [
+      "React JS",
+      "Tailwind CSS",
+      "CSS",
+      "JQuery",
+      // "Cloudinary",
+      // "Terraform",
+    ],
+    // sysArch: "https://sysarch.burhanuddinmerchant.me/fnf.html",
   },
 
   {

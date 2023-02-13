@@ -3,6 +3,7 @@ import "react-toastify/dist/ReactToastify.min.css";
 
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import Squid from "./components/Squid";
+import Demo from "./pages/Demo";
 
 import AboutMe from "./pages/AboutMe";
 import Contact from "./pages/Contact";
@@ -54,6 +55,9 @@ function App() {
             </Route>
             <Route exact path="/squid-game">
               <Squid />
+            </Route>
+            <Route exact path="/demo">
+              <Demo />
             </Route>
             <Route exact path="/about">
               <AboutMe />
