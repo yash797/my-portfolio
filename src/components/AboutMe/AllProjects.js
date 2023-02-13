@@ -18,7 +18,7 @@ export default function Projects() {
         </div>
       </Fade>
       <Fade up>
-        <div className="flex flex-wrap w-full justify-center">
+        <div className="flex flex-wrap w-full justify-center ">
           {projectsData.map((project, index) => (
             <ProjectCard project={project} key={index} />
           ))}

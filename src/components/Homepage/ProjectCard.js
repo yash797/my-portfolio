@@ -36,7 +36,7 @@ export const ProjectCard = (props) => {
             <h2 className="text-center font-bold font-primary text-2xl text-blue-500">
               {name}
             </h2>
-            <p className="text-center text-sm text-secondary text-gray-300 px-2 py-2">
+            <p className="text-justify text-sm text-secondary text-gray-300 px-2 py-2">
               {description}
             </p>
           </div>
