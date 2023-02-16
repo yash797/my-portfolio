@@ -34,7 +34,7 @@ export default function HackathonCard(props) {
           </p>
           <p className="text-justify text-sm text-secondary text-gray-300 mt-2">
             <span className="font-bold">Solution:</span> {solution}
-            {description}
+            
           </p>
         </div>
       </div>
