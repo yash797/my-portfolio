@@ -56,7 +56,7 @@ export const projectsData = [
       "The Mystery Match is a web-platform connecting Sherlock Holmes with potential assistant detectives, allowing the latter to submit their resumes and showcase their skills, and the former to easily browse and select the best fit for their cases. The platform also allows for direct communication and updates on the status of applications.",
     image: mystery,
     code: "",
-    deployment: "https://www.pcsb-registrations.tk/",
+    deployment: "https://mystery-match.netlify.app/",
     techStack: [
       "React JS",
       "Tailwind CSS",
