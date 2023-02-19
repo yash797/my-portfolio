@@ -7,6 +7,7 @@ import mystery from "../images/mystery-match.jpeg";
 import xeniaverse from "../images/xeniaverse.png";
 import squid from "../images/squid_game.png";
 import estate from "../images/estate.png";
+import townhall from "../images/Townhall.png";
 
 import gamex from "../images/game-x.png";
 import digiwork from "../images/digiwork.png";
@@ -57,15 +58,7 @@ export const projectsData = [
     image: mystery,
     code: "",
     deployment: "https://mystery-match.netlify.app/",
-    techStack: [
-      "React JS",
-      "Tailwind CSS",
-      "CSS",
-      "JQuery",
-      // "Cloudinary",
-      // "Terraform",
-    ],
-    // sysArch: "https://sysarch.burhanuddinmerchant.me/fnf.html",
+    techStack: ["React JS", "Tailwind CSS", "CSS", "JQuery"],
   },
 
   {
@@ -111,6 +104,16 @@ export const projectsData = [
     // code: "",
     deployment: "https://voicekart.netlify.app/",
     techStack: ["ReactJS", "Alan AI", "Tailwind CSS"],
+  },
+
+  {
+    name: "Townhall Estates",
+    description:
+      "Townhall Estates is a single-page React app that allows users to filter real estate listings by move-in date, property type, country, and price range, as well as search by property name.",
+    image: townhall,
+    code: "",
+    deployment: "https://townhall-estates.netlify.app/",
+    techStack: ["React JS", "Tailwind CSS", "CSS"],
   },
 
   {
