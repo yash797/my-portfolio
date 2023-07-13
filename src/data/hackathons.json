@@ -1,10 +1,37 @@
 [
     {
+        "name": "Inspirion 2.0",
+        "position": "Runners Up",
+        "teamName": "Chain Reaction",
+        "solution": "ProjectBuddy is a LinkedIn-like platform designed specifically for college students, built with ReactJS, Django, PostgreSQL, and integrated with the SendBird API, empowering users to connect, collaborate, and find teammates with complementary skills for hackathons and projects.",
+        "date": "December 2021",
+        "description": "College students lack a dedicated platform to easily connect, collaborate, and find teammates with complementary skills for hackathons and projects, hindering their ability to form effective teams and maximize their potential for success.",
+        "website": "https://github.com/yash797/project_buddy"
+    },
+    {
+        "name": "Inspirion 2.0",
+        "position": "Runners Up",
+        "teamName": "Chain Reaction",
+        "solution": "ProjectBuddy is a LinkedIn-like platform designed specifically for college students, built with ReactJS, Django, PostgreSQL, and integrated with the SendBird API, empowering users to connect, collaborate, and find teammates with complementary skills for hackathons and projects.",
+        "date": "December 2021",
+        "description": "College students lack a dedicated platform to easily connect, collaborate, and find teammates with complementary skills for hackathons and projects, hindering their ability to form effective teams and maximize their potential for success.",
+        "website": "https://github.com/yash797/project_buddy"
+    },
+    {
+        "name": "HackFormers",
+        "position": "Second Runners Up",
+        "teamName": "Sharingans",
+        "solution": "ProjectBuddy is a LinkedIn-like platform designed specifically for college students, built with ReactJS, Django, PostgreSQL, and integrated with the SendBird API, empowering users to connect, collaborate, and find teammates with complementary skills for hackathons and projects.",
+        "date": "March 2023",
+        "description": "College students lack a dedicated platform to easily connect, collaborate, and find teammates with complementary skills for hackathons and projects, hindering their ability to form effective teams and maximize their potential for success.",
+        "website": "https://github.com/yash797/project_buddy"
+    },
+    {
         "name": "Ideathon",
         "position": "Second Runners Up",
         "teamName": "Tech3bit",
         "solution": "An AI-powered application for farmers to detect and cure plant diseases, improving crop yields and assisting the government in tracking and preventing the spread of these diseases.",
-        "date": "December 2021",
+        "date": "March 2023",
         "description": "The PISB ideathon is an event that promotes collaboration and innovation by bringing together participants to generate ideas and find solutions to real-world challenges through brainstorming, team-building, workshops, keynote speakers, and other activities.",
         "website": "https://ideathon.pictieee.in/"
     },

@@ -24,6 +24,7 @@ export const projectsData = [
 
     // sysArch: "https://www.pcsbxenia.com/",
   },
+  
   {
     name: "Crypto Stalker",
     description:
