@@ -64,7 +64,10 @@
    
     
     
-    
+     {
+       "name": "AWS",
+        "url": "https://img.icons8.com/color/192/000000/amazon-web-services.png"
+    },
     
     
     
@@ -103,10 +106,6 @@
     {
         "name": "Illustrator",
         "url": "https://img.icons8.com/color/192/000000/adobe-illustrator.png"
-    },
-    {
-        "name": "Premiere Pro",
-        "url": "https://img.icons8.com/color/192/000000/adobe-premiere-pro.png"
     }
     
    
