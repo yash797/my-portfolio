@@ -1,6 +1,7 @@
 import cart from "../images/cart.png";
 import xenia from "../images/xenia.png";
 import crypto from "../images/crypto.png";
+import crypto1 from "../images/pb.jpg";
 import portal from "../images/portal.png";
 import mystery from "../images/mystery-match.jpeg";
 
@@ -52,6 +53,24 @@ export const projectsData = [
     techStack: ["Photoshop"],
   },
 
+  {
+    name: "Project Buddy",
+    description:
+      "A college student networking platform designed to facilitate seamless communication and collaboration for academic projects and hackathons.",
+    image: crypto1,
+    code: "",
+    deployment: "https://project-buddy.netlify.app/",
+    techStack: [
+      "React JS",
+      "Tailwind CSS",
+      "Django",
+      "PostgressSQL",
+      // "Cloudinary",
+      // "Terraform",
+    ],
+    // sysArch: "https://sysarch.burhanuddinmerchant.me/fnf.html",
+  },
+  
   {
     name: "Mystery Match",
     description:
