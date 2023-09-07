@@ -189,104 +189,104 @@ export default function Contact() {
               </a>
             </div>
           </div>
-          // <div className="mt-8">
-          //   <form autoComplete="on" method="post">
-          //     <div className="lg:flex lg:space-x-8">
-          //       <div className="w-full lg:w-1/2 flex flex-col">
-          //         <label className="text-gray-400 font-secondary font-medium mb-2 text-lg">
-          //           Name
-          //         </label>
-          //         <input
-          //           className={
-          //             error.nameError === ""
-          //               ? "appearance-none block bg-gray-700 text-white font-primary rounded-md py-4 px-4 leading-tight focus:outline-none focus:bg-gray-600"
-          //               : "appearance-none block bg-gray-700 text-white font-primary rounded-md py-4 px-4 leading-tight focus:outline-none focus:bg-gray-600 border-2 border-red-500"
-          //           }
-          //           id="name"
-          //           name="name"
-          //           type="text"
-          //           placeholder="Mary Jane"
-          //           onChange={handleChange}
-          //         />
-          //         {error.nameError === "" ? null : (
-          //           <p className="text-red-500 text-xs italic mt-2">
-          //             {error.nameError}
-          //           </p>
-          //         )}
-          //         <label className="text-gray-400 font-secondary font-medium mb-2 text-lg mt-5">
-          //           Email
-          //         </label>
-          //         <input
-          //           className={
-          //             error.emailError === ""
-          //               ? "appearance-none block bg-gray-700 text-white font-primary rounded-md py-4 px-4 leading-tight focus:outline-none focus:bg-gray-600"
-          //               : "appearance-none block bg-gray-700 text-white font-primary rounded-md py-4 px-4 leading-tight focus:outline-none focus:bg-gray-600 border-2 border-red-500"
-          //           }
-          //           id="email"
-          //           name="email"
-          //           type="text"
-          //           placeholder="maryjane@gmail.com"
-          //           onChange={handleChange}
-          //         />
-          //         {error.emailError === "" ? null : (
-          //           <p className="text-red-500 text-xs italic mt-2">
-          //             {error.emailError}
-          //           </p>
-          //         )}
-          //         <label className="text-gray-400 font-secondary font-medium mb-2 text-lg mt-5">
-          //           Mobile Number
-          //         </label>
-          //         <input
-          //           className={
-          //             error.phoneError === ""
-          //               ? "appearance-none block bg-gray-700 text-white font-primary rounded-md py-4 px-4 leading-tight focus:outline-none focus:bg-gray-600"
-          //               : "appearance-none block bg-gray-700 text-white font-primary rounded-md py-4 px-4 leading-tight focus:outline-none focus:bg-gray-600 border-2 border-red-500"
-          //           }
-          //           id="phone"
-          //           name="phone"
-          //           type="phone"
-          //           placeholder="9799108189"
-          //           onChange={handleChange}
-          //         />
-          //         {error.phoneError === "" ? null : (
-          //           <p className="text-red-500 text-xs italic mt-2">
-          //             {error.phoneError}
-          //           </p>
-          //         )}
-          //       </div>
-          //       <div className="mt-5 lg:mt-0 w-full lg:w-1/2 flex flex-col">
-          //         <label className="text-gray-400 font-secondary font-medium mb-2 text-lg">
-          //           Message
-          //         </label>
-          //         <textarea
-          //           rows="8"
-          //           className={
-          //             error.messageError === ""
-          //               ? "appearance-none block h-full bg-gray-700 text-white font-primary rounded-md py-4 px-4 leading-tight resize-none focus:outline-none focus:bg-gray-600"
-          //               : "appearance-none block h-full bg-gray-700 text-white font-primary rounded-md py-4 px-4 leading-tight resize-none focus:outline-none focus:bg-gray-600 border-2 border-red-500"
-          //           }
-          //           type="text"
-          //           id="message"
-          //           name="message"
-          //           placeholder="Hey there, I am interested in your services. Can we schedule a call?"
-          //           onChange={handleChange}
-          //         />
-          //         {error.messageError === "" ? null : (
-          //           <p className="text-red-500 text-xs italic mt-2">
-          //             {error.messageError}
-          //           </p>
-          //         )}
-          //       </div>
-          //     </div>
-          //     <button
-          //       className="w-full my-2 bg-blue-500 hover:bg-blue-700 text-white font-medium text-center transition duration-500 ease-in-out py-3 px-4 rounded font-primary text-lg mt-8"
-          //       type="submit"
-          //       onClick={(e) => handleSubmit(e)}
-          //     >
-          //       Send
-          //     </button>
-          //   </form>
-          // </div>
+          <div className="mt-8">
+            // <form autoComplete="on" method="post">
+            //   <div className="lg:flex lg:space-x-8">
+            //     <div className="w-full lg:w-1/2 flex flex-col">
+            //       <label className="text-gray-400 font-secondary font-medium mb-2 text-lg">
+            //         Name
+            //       </label>
+            //       <input
+            //         className={
+            //           error.nameError === ""
+            //             ? "appearance-none block bg-gray-700 text-white font-primary rounded-md py-4 px-4 leading-tight focus:outline-none focus:bg-gray-600"
+            //             : "appearance-none block bg-gray-700 text-white font-primary rounded-md py-4 px-4 leading-tight focus:outline-none focus:bg-gray-600 border-2 border-red-500"
+            //         }
+            //         id="name"
+            //         name="name"
+            //         type="text"
+            //         placeholder="Mary Jane"
+            //         onChange={handleChange}
+            //       />
+            //       {error.nameError === "" ? null : (
+            //         <p className="text-red-500 text-xs italic mt-2">
+            //           {error.nameError}
+            //         </p>
+            //       )}
+            //       <label className="text-gray-400 font-secondary font-medium mb-2 text-lg mt-5">
+            //         Email
+            //       </label>
+            //       <input
+            //         className={
+            //           error.emailError === ""
+            //             ? "appearance-none block bg-gray-700 text-white font-primary rounded-md py-4 px-4 leading-tight focus:outline-none focus:bg-gray-600"
+            //             : "appearance-none block bg-gray-700 text-white font-primary rounded-md py-4 px-4 leading-tight focus:outline-none focus:bg-gray-600 border-2 border-red-500"
+            //         }
+            //         id="email"
+            //         name="email"
+            //         type="text"
+            //         placeholder="maryjane@gmail.com"
+            //         onChange={handleChange}
+            //       />
+            //       {error.emailError === "" ? null : (
+            //         <p className="text-red-500 text-xs italic mt-2">
+            //           {error.emailError}
+            //         </p>
+            //       )}
+            //       <label className="text-gray-400 font-secondary font-medium mb-2 text-lg mt-5">
+            //         Mobile Number
+            //       </label>
+            //       <input
+            //         className={
+            //           error.phoneError === ""
+            //             ? "appearance-none block bg-gray-700 text-white font-primary rounded-md py-4 px-4 leading-tight focus:outline-none focus:bg-gray-600"
+            //             : "appearance-none block bg-gray-700 text-white font-primary rounded-md py-4 px-4 leading-tight focus:outline-none focus:bg-gray-600 border-2 border-red-500"
+            //         }
+            //         id="phone"
+            //         name="phone"
+            //         type="phone"
+            //         placeholder="9799108189"
+            //         onChange={handleChange}
+            //       />
+            //       {error.phoneError === "" ? null : (
+            //         <p className="text-red-500 text-xs italic mt-2">
+            //           {error.phoneError}
+            //         </p>
+            //       )}
+            //     </div>
+            //     <div className="mt-5 lg:mt-0 w-full lg:w-1/2 flex flex-col">
+            //       <label className="text-gray-400 font-secondary font-medium mb-2 text-lg">
+            //         Message
+            //       </label>
+            //       <textarea
+            //         rows="8"
+            //         className={
+            //           error.messageError === ""
+            //             ? "appearance-none block h-full bg-gray-700 text-white font-primary rounded-md py-4 px-4 leading-tight resize-none focus:outline-none focus:bg-gray-600"
+            //             : "appearance-none block h-full bg-gray-700 text-white font-primary rounded-md py-4 px-4 leading-tight resize-none focus:outline-none focus:bg-gray-600 border-2 border-red-500"
+            //         }
+            //         type="text"
+            //         id="message"
+            //         name="message"
+            //         placeholder="Hey there, I am interested in your services. Can we schedule a call?"
+            //         onChange={handleChange}
+            //       />
+            //       {error.messageError === "" ? null : (
+            //         <p className="text-red-500 text-xs italic mt-2">
+            //           {error.messageError}
+            //         </p>
+            //       )}
+            //     </div>
+            //   </div>
+            //   <button
+            //     className="w-full my-2 bg-blue-500 hover:bg-blue-700 text-white font-medium text-center transition duration-500 ease-in-out py-3 px-4 rounded font-primary text-lg mt-8"
+            //     type="submit"
+            //     onClick={(e) => handleSubmit(e)}
+            //   >
+            //     Send
+            //   </button>
+            // </form>
+          </div>
         </div>
       </Fade>
     </div>
