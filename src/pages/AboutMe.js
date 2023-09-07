@@ -19,11 +19,8 @@ export default function AboutMe() {
       <Fade up cascade>
         <div>
           <p className="mx-auto w-full lg:w-3/4 mt-4 font-secondary font-normal text-gray-400 text-xl text-justify">
-            Hi, I am a driven third-year undergraduate student at Pune Institute
-            of Computer Technology (PICT) pursuing a B.E in Electronics and
-            Telecommunications. With a passion for Web Development, UI UX
-            Designing, and Graphic Designing, I have honed my skills in creating
-            visually appealing designs and user-friendly websites.
+            I'm a driven fourth-year undergrad student pursuing a Bachelor's degree in Electronics and Telecommunications from Pune Institute of Computer Technology (PICT). With a strong passion for software development, I have cultivated my skills in creating cutting-edge web applications.
+
             {/* <br></br>
             <br></br> */}
           </p>
