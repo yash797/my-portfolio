@@ -1,19 +1,39 @@
 [
+   
     {
-        "date": "JUNE 2022 - AUGUST 2022",
-        "title": "Credit Suisse",
-        "subtitle": "Technology Intern",
-        "website": "https://www.credit-suisse.com/us/en.html",
+"date": "July 2023 - Present",
+"title": "Fetch.ai",
+"subtitle": "Software Developer Intern",
+"details": [
+"Developed Fetch.ai’s main website and API documentation using Next.js and Tailwind CSS, creating a modern and user-friendly online presence.",
+"Collaborated with the development team to implement innovative solutions, improving website functionality and user experience.",
+"Gained valuable insights into modern web development practices and contributed to enhancing Fetch.ai’s online presence and developer experience."
+],
+"techStack": [
+"Next.js",
+"Tailwind CSS"
+]
+},
+    {
+        "date": "Feb 2023 - July 2023",
+        "title": "ZentrumHub",
+        "subtitle": "SDE Intern",
+        "website": "https://zentrumhub.com/",
         "details": [
-            "Developed an Admin Dashboard for Rockhopper, a trade query and trade entry system for Credit Suisse's Equity Derivatives trading business, reducing around 2 hours of the system admin's time.",
-            "Conducted a Demonstration Session for the frontend team of the Equity and Derivatives Department on React Query, which was later used for caching data on the SphereUnderlyings portal.",
-            "Improved the User Interface for SphereUnderlyings, a web-based global client intelligence platform, hence enchancing the User Experience in UAT."
-        ],
-        "techStack": [
-            "ReactJS",
-            "React Query",
-            "Material UI"
-        ]
+"Developed and maintained AWS Lambda functions to enhance the functionality and performance of the company's APIs.",
+"Collaborated with a cross-functional team to build and deploy Node.js and Express.js applications, utilizing AWS SNS for real-time communication within the applications.",
+"Integrated ElasticSearch and DynamoDB to optimize data storage and retrieval processes.",
+"Created API functions using ExpressJS and NodeJS for fetching, storing correlation IDs, and handling compressed data.",
+"Implemented robust error handling and advanced troubleshooting techniques to ensure smooth system operation and reliability."
+],
+"techStack": [
+"AWS Lambda",
+"Node.js",
+"Express.js",
+"AWS SNS",
+"ElasticSearch",
+"DynamoDB"
+]
     }
     
 ]
