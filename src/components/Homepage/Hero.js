@@ -22,10 +22,10 @@ export default function Hero() {
               }}
               onInit={(typewriter) => {
                 typewriter
-                  .typeString("Web Developer")
+                  .typeString("Software Developer")
                   .pauseFor(400)
                   .deleteAll()
-                  .typeString("UI UX Developer")
+                  .typeString("Cloud and DevOps enthusiast")
                   .pauseFor(400)
                   .deleteAll()
                   .typeString("Graphic Designer")
