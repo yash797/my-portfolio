@@ -87,7 +87,7 @@ export const projectsData = [
       "The registration portal is a web-based platform designed by a team to facilitate the registration process for students of PICT College who want to join the Technical Club i.e PCSB. The portal streamlines the registration process and makes it easy for students to sign up and become a member of the club.",
     image: portal,
     code: "",
-    deployment: "https://www.pcsb-registrations.tk/",
+    deployment: "https://csi-registration-portal.netlify.app/",
     techStack: [
       "React JS",
       "Tailwind CSS",
