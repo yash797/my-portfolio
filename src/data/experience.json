@@ -1,7 +1,21 @@
 [
    
     {
-"date": "July 2023 - Present",
+"date": "Feb 2024 - Present",
+"title": "ORO Labs",
+"subtitle": "Software Engineering Intern",
+"website": "",
+"details": [
+"Assisted in implementing localization features, making the application accessible and user-friendly for international users.",
+"Collaborated with the development team to identify and fix UI bugs, ensuring a seamless user experience for the application.",
+],
+"techStack": [
+"React.js",
+"Spring Boot"
+]
+},
+   {
+"date": "July 2023 - November 2023",
 "title": "Fetch.ai",
 "subtitle": "Software Developer Intern",
 "website": "https://fetch.ai/",
