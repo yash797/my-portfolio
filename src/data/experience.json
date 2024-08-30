@@ -1,54 +1,56 @@
 [
-   
+  
     {
-"date": "Feb 2024 - Present",
-"title": "ORO Labs",
-"subtitle": "Software Engineering Intern",
-"website": "",
-"details": [
-"Assisted in implementing localization features, making the application accessible and user-friendly for international users.",
-"Collaborated with the development team to identify and fix UI bugs, ensuring a seamless user experience for the application.",
-],
-"techStack": [
-"React.js",
-"Spring Boot"
-]
-},
-   {
-"date": "July 2023 - November 2023",
-"title": "Fetch.ai",
-"subtitle": "Software Developer Intern",
-"website": "https://fetch.ai/",
-"details": [
-"Developed Fetch.ai’s main website and API documentation using Next.js and Tailwind CSS, creating a modern and user-friendly online presence.",
-"Collaborated with the development team to implement innovative solutions, improving website functionality and user experience.",
-"Gained valuable insights into modern web development practices and contributed to enhancing Fetch.ai’s online presence and developer experience."
-],
-"techStack": [
-"Next.js",
-"Tailwind CSS"
-]
-},
-    {
-        "date": "Feb 2023 - July 2023",
-        "title": "ZentrumHub",
-        "subtitle": "SDE Intern",
-        "website": "https://zentrumhub.com/",
+        "date": "July 2024 - Present",
+        "title": "HSBC",
+        "subtitle": "Trainee Software Engineer",
+        "website": "",
         "details": [
-"Developed and maintained AWS Lambda functions to enhance the functionality and performance of the company's APIs.",
-"Collaborated with a cross-functional team to build and deploy Node.js and Express.js applications, utilizing AWS SNS for real-time communication within the applications.",
-"Integrated ElasticSearch and DynamoDB to optimize data storage and retrieval processes.",
-"Created API functions using ExpressJS and NodeJS for fetching, storing correlation IDs, and handling compressed data.",
-"Implemented robust error handling and advanced troubleshooting techniques to ensure smooth system operation and reliability."
-],
-"techStack": [
-"AWS Lambda",
-"Node.js",
-"Express.js",
-"AWS SNS",
-"ElasticSearch",
-"DynamoDB"
-]
-    }
-    
+        ],
+        "techStack": ["React.js", "Spring Boot", "Jenkins", "Docker"]
+      },  {
+    "date": "Feb 2024 - July 2024",
+    "title": "ORO Labs",
+    "subtitle": "Software Engineering Intern",
+    "website": "",
+    "details": [
+      "Assisted in implementing localization features, making the application accessible and user-friendly for international users.",
+      "Collaborated with the development team to identify and fix UI bugs, ensuring a seamless user experience for the application.",
+      "Provided support in resolving customer-reported issues by developing satisfactory solutions to their queries, contributing to increased user satisfaction"
+    ],
+    "techStack": ["React.js", "Spring Boot"]
+  },
+  {
+    "date": "July 2023 - November 2023",
+    "title": "Fetch.ai",
+    "subtitle": "Software Developer Intern",
+    "website": "https://fetch.ai/",
+    "details": [
+      "Developed Fetch.ai's main website and API documentation using Next.js and Tailwind CSS, creating a modern and user-friendly online presence.",
+      "Collaborated with the development team to implement innovative solutions, improving website functionality and user experience.",
+      "Gained valuable insights into modern web development practices and contributed to enhancing Fetch.ai’s online presence and developer experience."
+    ],
+    "techStack": ["Next.js", "Tailwind CSS"]
+  },
+  {
+    "date": "Feb 2023 - July 2023",
+    "title": "ZentrumHub",
+    "subtitle": "SDE Intern",
+    "website": "https://zentrumhub.com/",
+    "details": [
+      "Developed and maintained AWS Lambda functions to enhance the functionality and performance of the company's APIs.",
+      "Collaborated with a cross-functional team to build and deploy Node.js and Express.js applications, utilizing AWS SNS for real-time communication within the applications.",
+      "Integrated ElasticSearch and DynamoDB to optimize data storage and retrieval processes.",
+      "Created API functions using ExpressJS and NodeJS for fetching, storing correlation IDs, and handling compressed data.",
+      "Implemented robust error handling and advanced troubleshooting techniques to ensure smooth system operation and reliability."
+    ],
+    "techStack": [
+      "AWS Lambda",
+      "Node.js",
+      "Express.js",
+      "AWS SNS",
+      "ElasticSearch",
+      "DynamoDB"
+    ]
+  }
 ]

@@ -9,11 +9,28 @@ import xeniaverse from "../images/xeniaverse.png";
 import squid from "../images/squid_game.png";
 import estate from "../images/estate.png";
 import townhall from "../images/Townhall.png";
-
+import courier from "../images/courierMarketplace.png";
 import gamex from "../images/game-x.png";
 import digiwork from "../images/digiwork.png";
-
+import hms from "../images/HMS.jpg";
 export const projectsData = [
+  {
+    name: " Decentralized Courier Marketplace",
+    description:
+      "Ai based courier marketplace with development of multiple agents to enhance and optimize delivery system",
+    image: courier,
+    code: "",
+    techStack: [
+      "React JS",
+      "Docker",
+      "PostgreSQL",
+      "FastAPI",
+      "Twilio Services",
+    ],
+    deployment: "",
+
+    // sysArch: "https://www.pcsbxenia.com/",
+  },
   {
     name: "XENIA",
     description:
@@ -25,7 +42,25 @@ export const projectsData = [
 
     // sysArch: "https://www.pcsbxenia.com/",
   },
-  
+  {
+    name: "Hospital Management System",
+    description:
+      "The Hospital Management System (HMS) is a web application designed to streamline the management of hospital services. It enables efficient handling of patient details, doctor appointments, and other hospital operations. The system caters to three types of users: Admins, Hospital Staff, and Doctors, each with specific privileges and functionalities.",
+    image: hms,
+    code: "",
+    deployment: "https://github.com/yash797/hospital-management-system",
+    techStack: [
+      "HTML",
+      "Tailwind CSS",
+      "JavaScript",
+      "Java",
+      // "Cloudinary",
+      // "Terraform",
+    ],
+
+    // sysArch: "https://sysarch.burhanuddinmerchant.me/fnf.html",
+  },
+
   {
     name: "Crypto Stalker",
     description:
@@ -70,7 +105,7 @@ export const projectsData = [
     ],
     // sysArch: "https://sysarch.burhanuddinmerchant.me/fnf.html",
   },
-  
+
   {
     name: "Mystery Match",
     description:
@@ -174,12 +209,12 @@ export const projectsData = [
     ],
   },
 
-  {
-    name: "Mess Menu Finder",
-    description: "Ongoing",
-    image:
-      "https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2019/08/07/Pictures/_ec38addc-b906-11e9-a203-e6c4ad816de5.jpg",
-    // code: "",
-    techStack: ["React JS", "Mongo DB", "Node JS"],
-  },
+  // {
+  //   name: "Mess Menu Finder",
+  //   description: "Ongoing",
+  //   image:
+  //     "https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2019/08/07/Pictures/_ec38addc-b906-11e9-a203-e6c4ad816de5.jpg",
+  //   // code: "",
+  //   techStack: ["React JS", "Mongo DB", "Node JS"],
+  // },
 ];

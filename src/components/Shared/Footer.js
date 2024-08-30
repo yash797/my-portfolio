@@ -47,7 +47,7 @@ export default function Footer() {
           </svg>
         </a>
         <a
-          href="https://www.linkedin.com/in/yash-pande-1a5812206/"
+          href="https://www.linkedin.com/in/yash-pande-/"
           target="_blank"
           rel="noreferrer"
         >
@@ -62,7 +62,7 @@ export default function Footer() {
           </svg>
         </a>
         <a
-          href="https://www.instagram.com/_ya.sh._p/?hl=en"
+          href="https://www.instagram.com/yash_.pande/?hl=en"
           target="_blank"
           rel="noreferrer"
         >

@@ -25,10 +25,10 @@ export default function Hero() {
                   .typeString("Software Developer")
                   .pauseFor(400)
                   .deleteAll()
-                  .typeString("Cloud and DevOps enthusiast")
+                  .typeString("Cloud Computing")
                   .pauseFor(400)
                   .deleteAll()
-                  .typeString("Graphic Designer")
+                  .typeString("DevOps")
                   .pauseFor(400)
                   .deleteAll()
                   .start();
@@ -36,8 +36,9 @@ export default function Hero() {
             />
           </div>
           <h1 className="mt-4 font-secondary font-normal text-gray-400 text-xl text-left">
-            I am an Undergraduate Student from Pune Institute of
-            Computer Technology with a keen interest in the field of Web Development, UI UX Development and Graphic Designing.
+          I am a graduate from Pune Institute of Computer Technology with a strong background in Software Development, 
+          Cloud Computing, and DevOps. Currently, I am working as a Trainee Software Engineer at HSBC, 
+          where I am focused on building my skills and gaining valuable experience in the industry.
           </h1>
           <div className="flex flex-col lg:flex-row lg:justify-around">
             <Link to="/resume">
