@@ -3,12 +3,18 @@
     {
         "date": "July 2024 - Present",
         "title": "HSBC",
-        "subtitle": "Trainee Software Engineer",
+        "subtitle": "Software Engineer",
         "website": "",
         "details": [
+          "Developed and implemented the Delegate Feature for the UK entity, working on multiple endpoints such as /confirm and /propose call APIs.",
+"Contributed to carbon migration for various APIs, ensuring seamless transitions and optimized performance.",
+"Managed certificate renewals, enhancing security and compliance across services.",
+"Resolved critical bugs and performance issues, improving system reliability.",
+"Gained hands-on experience with Docker, Kubernetes, and Spring Boot, while also acquiring an overview of microservices architecture."
         ],
         "techStack": ["React.js", "Spring Boot", "Jenkins", "Docker"]
-      },  {
+      },  
+      {
     "date": "Feb 2024 - July 2024",
     "title": "ORO Labs",
     "subtitle": "Software Engineering Intern",

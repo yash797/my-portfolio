@@ -36,9 +36,8 @@ export default function Hero() {
             />
           </div>
           <h1 className="mt-4 font-secondary font-normal text-gray-400 text-xl text-left">
-          I am a graduate from Pune Institute of Computer Technology with a strong background in Software Development, 
-          Cloud Computing, and DevOps. Currently, I am working as a Trainee Software Engineer at HSBC, 
-          where I am focused on building my skills and gaining valuable experience in the industry.
+          🚀 Software Engineer @ HSBC | Crafting clean code & scalable systems...
+          PICT grad with a passion for full-stack dev, cloud tech & DevOps. I love turning ideas into reliable, real-world solutions — one commit at a time.
           </h1>
           <div className="flex flex-col lg:flex-row lg:justify-around">
             <Link to="/resume">

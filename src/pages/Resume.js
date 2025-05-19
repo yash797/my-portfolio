@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Resume() {
   const resumeUrl =
-    "https://drive.google.com/file/d/1i1gmqDtMPYsMhADiMYyJukyZxjX7ZKdE/preview";
+    "https://drive.google.com/file/d/1gfZzsIqNm0QCo7C69awyZ307pAqkl4jI/preview";
   return (
     <div className="shadow-md max-w-5xl mx-auto mt-16 overflow-hidden rounded-lg divide-gray-800">
       <div className="h-full">
@@ -14,7 +14,7 @@ export default function Resume() {
             </h1>
           </Fade>
           <a
-            href="https://drive.google.com/u/1/uc?id=1i1gmqDtMPYsMhADiMYyJukyZxjX7ZKdE&export=download"
+            href="https://drive.google.com/u/1/uc?id=1gfZzsIqNm0QCo7C69awyZ307pAqkl4jI&export=download"
             download
           >
             <Fade>

@@ -38,7 +38,7 @@ export const projectsData = [
     image: xenia,
     code: "",
     techStack: ["React JS", "Mongo DB", "Node JS"],
-    deployment: "https://www.pcsbxenia.com/",
+    deployment: "https://xenia-2.netlify.app/",
 
     // sysArch: "https://www.pcsbxenia.com/",
   },

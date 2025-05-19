@@ -19,24 +19,21 @@ export default function AboutMe() {
       <Fade up cascade>
         <div>
           <p className="mx-auto w-full lg:w-3/4 mt-4 font-secondary font-normal text-gray-400 text-xl text-justify">
-            I'm a driven fourth-year undergrad student pursuing a Bachelor's degree in Electronics and Telecommunications from Pune Institute of Computer Technology (PICT). With a strong passion for software development, I have cultivated my skills in creating cutting-edge web applications.
-
+          👋 Hey there! I’m Yash Pande — a curious and passionate software developer with a deep-rooted love for building impactful tech. Currently working at HSBC, I bring experience across cloud technologies, full-stack development, and DevOps.
             {/* <br></br>
             <br></br> */}
           </p>
           <p className="mx-auto w-full lg:w-3/4 mt-3 font-secondary font-normal text-gray-400 text-xl text-justify">
-            I am a quick learner and continuously seek to expand my knowledge in
-            the field. I am currently learning C++ and Java programming
-            languages, which will further enhance my skills. I am not only a
-            talented designer and developer, but also a natural leader who is a
-            hard worker and a great team player. I thrive under pressure and am
-            confident in meeting tight deadlines.
+          I graduated from Pune Institute of Computer Technology (PICT) with a degree in Electronics and Telecommunication Engineering, but my heart has always belonged to software. From building scalable web platforms to deploying cloud-native microservices, I thrive at the intersection of problem-solving and creativity.
           </p>
           <p className="mx-auto w-full lg:w-3/4 mt-3 font-secondary font-normal text-gray-400 text-xl text-justify">
-            Cricket and Chess are my passions, and I love to bring my creative
-            skills to these games. I am eager to use my skills and experience to
-            make a positive impact in my future projects. Let's connect and see
-            how we can work together to create something amazing.
+          My journey so far includes internships at places like Oro Labs, Fetch.ai and ZentrumHub, where I’ve worked on everything from localization and UI bugs to decentralized systems and API documentation. I’ve also built real-world applications—from a courier marketplace using AI agents to a hackathon project platform for students.
+          </p>
+          <p className="mx-auto w-full lg:w-3/4 mt-3 font-secondary font-normal text-gray-400 text-xl text-justify">
+          Outside the code editor, you'll find me leading teams, mentoring juniors, or battling it out on a chessboard or cricket field. I believe in learning by doing, leading by example, and always staying curious.
+          </p>
+          <p className="mx-auto w-full lg:w-3/4 mt-3 font-secondary font-normal text-gray-400 text-xl text-justify">
+          Let’s connect and build something awesome together. 😊
           </p>
         </div>
       </Fade>
