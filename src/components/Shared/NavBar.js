@@ -22,10 +22,10 @@ export default function NavBar() {
       title: "About Me",
       link: "/about",
     },
-    {
-      title: "What I Do",
-      link: "/work",
-    },
+    // {
+    //   title: "What I Do",
+    //   link: "/work",
+    // },
     {
       title: "Resume",
       link: "/resume",
